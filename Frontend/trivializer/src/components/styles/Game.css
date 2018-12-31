@@ -11,36 +11,31 @@
 .game-top {
   display: flex;
   flex-flow: row;
-  align-items: center;
-  justify-content: space-evenly;
-  overflow: hidden;
+  justify-content: flex-start;
+  margin: 0 auto;
 }
 
 .printButtons {
   display: flex;
+  flex-flow: row wrap;
 }
 
 .hidden {
   display: none;
 }
 
-.game-title {
-  text-align: center;
-  font-size: 26px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin: 0 20px;
+.game-editGameView {
+  overflow-y: hidden;
+  width: 70%;
+  max-width: 600px;
+  transition: width 2s ease;
 }
 
-.game-description {
-  white-space: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.game-showModifyGame h1 {
+  text-align: left;
 }
 
 /* Animation for editGameView */
-
 .showEditGame-enter {
   max-height: 0px;
   transition: max-height 1s ease;
@@ -56,4 +51,28 @@
 .showEditGame-leave.showEditGame-leave-active {
   max-height: 0px;
   transition: all 1000ms ease-out;
+}
+
+/* Tablet breakpoints*/
+@media screen and (max-width: 768px) {
+  .game-editGameView {
+    width: 95%;
+  }
+}
+
+/****** Styling for Games.js ******/
+
+.game-title {
+  text-align: center;
+  font-size: 26px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 20px;
+}
+
+.game-description {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
