@@ -1,7 +1,7 @@
 import firebase from "firebase";
 
 const config = {
-  apiKey: "AIzaSyBbD4nPLGBnZXYKU7IAE5mDAj7rnD1Et3I",
+  apiKey: process.env.firebaseAPIKey,
   authDomain: "trivializer-app.firebaseapp.com",
   databaseURL: "https://trivializer-app.firebaseio.com",
   projectId: "trivializer-app",
