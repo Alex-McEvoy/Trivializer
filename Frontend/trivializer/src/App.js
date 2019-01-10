@@ -33,7 +33,11 @@ class App extends Component {
         <Route path="/setting" component={Setting} />
         <Route path="/faqs" component={Faqs} />
         <Route exact path="/game/:id" render={props => <Game {...props} />} />
-        <Route exact path="/game/:id/round/:id" render={props => <Round {...props} />} />
+        <Route
+          exact
+          path="/game/:id/round/:id"
+          render={props => <Round {...props} />}
+        />
       </div>
     );
   }
