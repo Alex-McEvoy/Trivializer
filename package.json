@@ -2,6 +2,5 @@
   "dependencies": {
     "knex": "^0.15.2",
     "sqlite3": "^4.0.2"
-  },
-  "homepage": "https://trivialized.netlify.com/Frontend/trivializer"
+  }
 }
