@@ -1,12 +1,12 @@
 import firebase from "firebase";
 
 const config = {
-  apiKey: "AIzaSyCWagGc-I72tiBhJL7FJCdOCfCNzeSrH9g",
-  authDomain: "bar-trivializer.firebaseapp.com",
-  databaseURL: "https://bar-trivializer.firebaseio.com",
-  projectId: "bar-trivializer",
-  storageBucket: "bar-trivializer.appspot.com",
-  messagingSenderId: "427746073809"
+  apiKey: "AIzaSyBbD4nPLGBnZXYKU7IAE5mDAj7rnD1Et3I",
+  authDomain: "trivializer-app.firebaseapp.com",
+  databaseURL: "https://trivializer-app.firebaseio.com",
+  projectId: "trivializer-app",
+  storageBucket: "trivializer-app.appspot.com",
+  messagingSenderId: "687151801757"
 };
 
 firebase.initializeApp(config);
