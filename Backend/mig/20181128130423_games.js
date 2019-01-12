@@ -9,8 +9,8 @@ exports.up = function(knex, Promise) {
       .inTable("Users");
     table.string("name").notNullable();
     table.text("description");
-    table.bigInteger("date_created");
-    table.bigInteger("date_played").defaultTo(null);
+    table.integer("date_created");
+    table.integer("date_played").defaultTo(null);
   });
 };
 
