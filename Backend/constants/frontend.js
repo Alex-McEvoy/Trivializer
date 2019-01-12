@@ -1,4 +1,8 @@
-const FRONTEND_DEV_URLS = ["http://localhost:3000", "localhost:3000", 'http://localhost:3000'];
+const FRONTEND_DEV_URLS = [
+  "http://localhost:3000",
+  "localhost:3000",
+  "http://localhost:3000"
+];
 
 const FRONTEND_PROD_URLS = [
   "https://trivializer.netlify.com",
@@ -6,7 +10,8 @@ const FRONTEND_PROD_URLS = [
   "http://localhost:3000",
   "localhost:3000",
   "https://trivializer-googletest.netlify.com",
-  'http://localhost:3000'
+  "http://localhost:3000",
+  "https://trivialized.netlify.com"
 ];
 
 https: module.exports =
