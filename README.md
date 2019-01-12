@@ -41,7 +41,7 @@ Deployed: [Site Here](https://trivializer.netlify.com/)
 - Simplecrypt
 - Mailgun
 
-Deployed: [Site Here](https://testsdepl.herokuapp.com/)
+Deployed: [Site Here](https://trivialized.netlify.com/)
 
 ## Reasoning:
 
