@@ -13,6 +13,7 @@ exports.up = function(knex, Promise) {
         table.text("question").notNullable();
         table.string("correct_answer").notNullable();
         table.string("incorrect_answers").notNullable();
+        table.string("answers").notNullable();
     });
 };
 
