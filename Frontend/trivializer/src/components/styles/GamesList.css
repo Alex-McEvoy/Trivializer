@@ -50,9 +50,9 @@
 
 .game-delete:hover {
   box-shadow: 2px 2px;
-  background: #b13c2d;
-  border: 1px solid #b13c2d;
-  color: white;
+  background: #2db168;
+  border: 1px solid black;
+  color: black;
   cursor: pointer;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .fas:hover {
-  color: #b13c2d;
+  color: #2db168;
   cursor: pointer;
 }
 
